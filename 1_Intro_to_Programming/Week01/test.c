@@ -3,6 +3,7 @@
 int main()
 {
     printf("\n\t\tHello world\n");
+    printf("\n\t\tHello world\n");
     //ss
     printf("\n\t\tHello world\n");
 }
