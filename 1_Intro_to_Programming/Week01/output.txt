@@ -1,6 +1,2 @@
-
-		Hello world
-
-		Hello world
-
-		Hello world
+Hello	Hi I am a programmer
+100%%
