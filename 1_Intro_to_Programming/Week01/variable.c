@@ -15,7 +15,7 @@ int main()
     printf("%c\n", ami);
 
     int a, b;
-    scanf("%d %db", &a, &b);
+    scanf("%da %db", &a, &b);
     printf("%da %db\n", a, b);
 
     double ab = 22.123456789123456;
