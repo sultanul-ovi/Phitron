@@ -7,11 +7,6 @@
 #include <time.h>
 #include <limits.h>
 
-struct Fun
-{
-    int sum;
-};
-
 int main()
 {
     struct Fun f;
