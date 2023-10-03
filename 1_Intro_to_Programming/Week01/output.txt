@@ -1,7 +1,10 @@
-Hello	Hi I am a programmer
-100%%
-200 100
-2.5570
-K
-10a 20b
-22.123456789123455
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
