@@ -14,5 +14,5 @@ def delete_exes(directory):
                     print(f"Error deleting {full_path}: {e}")
 
 if __name__ == '__main__':
-    folder_path = "1_Intro_to_Programming"
+    folder_path = "HackerRank"
     delete_exes(folder_path)
