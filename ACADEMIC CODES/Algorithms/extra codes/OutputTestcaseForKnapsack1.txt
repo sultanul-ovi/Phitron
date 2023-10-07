@@ -1,0 +1,10 @@
+printing the sorted vector per weight price
+weight   price
+5     30
+10     40
+25     90
+22     77
+15     45
+Solution vector for fractional knapsack is:
+1 1 1 0.909091 0 
+Maximum cost: 230

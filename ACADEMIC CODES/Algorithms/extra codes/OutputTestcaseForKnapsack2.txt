@@ -1,0 +1,10 @@
+Printing the sorted vector on the basis of price:
+Weight   price
+25     90
+22     77
+15     45
+10     40
+5     30
+Solution vector for cost is:
+1 1 0.866667 0 0 
+Maximum cost: 206
