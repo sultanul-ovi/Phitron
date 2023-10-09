@@ -1,0 +1,7 @@
+No program can be perfect. That's why new versions of every software are released continuously. The current version (1.0) of our program needs to be improved as well.
+
+Currently, when the user inputs a proper noun, such as Delhi or Paris, the program will 1) convert that string into lowercase and 2) it will look for the lowercase version (i.e., delhi or paris ) in the dataset. However, the dataset doesn't have delhi or paris. It only has Delhi and Paris. Therefore, no definition is currently returned for proper nouns such as Delhi or Paris.
+
+Please try to fix this issue. You can think of adding another conditional block. You can find the code we currently have attached in this lecture for your convenience.
+
+A student discovered another issue with the program. The program cannot return the definition of acronyms such as USA or NATO; therefore, add another conditional to make the program return the definition of such words. 
