@@ -1,0 +1,5 @@
+s = input()
+s= list(s)
+s[0] = s[0].capitalize()
+s = "".join(s)
+print(s)

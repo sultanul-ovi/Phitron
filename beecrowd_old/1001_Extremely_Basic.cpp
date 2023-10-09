@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int a,b,c;
+    scanf("%d",&a);
+    scanf("%d",&b);
+    c= a+b;
+    
+    printf("X = %d\n",c);
+
+    return 0;
+}
