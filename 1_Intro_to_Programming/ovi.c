@@ -7,21 +7,6 @@
 #include <time.h>
 #include <limits.h>
 
-// test1.exe < input.txt > output.txt
-
-/*
-int: -2^31 to 2^31 - 1
-    printf("%d\n", INT_MAX);
-    printf("%d\n", INT_MIN);
-short: -2^15 to 2^15 - 1
-
-long long: -2^63 to 2^63-1 lld
-unsigned long long llu
-
-5e100 = 5 * 10^100
-1e20 = 10^20
-ascii value of null character(\0) is 0
-*/
 
 #define LL long long
 #define ULL unsigned long long
@@ -365,7 +350,6 @@ int main()
     char ch = 0;
     char s[2500];
     int sum = 0, prod = 1, count = 0, flag = 0;
-    int rem = 0, rev = 0;
     // double x, x1, x2, x3;
 
     // scanf("%d", &n);
@@ -386,24 +370,23 @@ int main()
     // {
     // }
 
-    // printf("%d", printFibonacci(16));
-    //  printf("%d", isprime(2));
-    //  printf("%d",n);
-    //  printf("%d",sum);
-    //  printf("%d",count);
 
-    // if (n1 * 6 < n2)
-    // {
-    //     printf("No");
-    // }
-    // else if (n1)
-    // {
-    //     printf("No");
-    // }
-    // else
-    // {
-    //     printf("Yes");
-    // }
 
     return 0;
 }
+
+// test1.exe < input.txt > output.txt
+
+/*
+int: -2^31 to 2^31 - 1
+    printf("%d\n", INT_MAX);
+    printf("%d\n", INT_MIN);
+short: -2^15 to 2^15 - 1
+
+long long: -2^63 to 2^63-1 lld
+unsigned long long llu
+
+5e100 = 5 * 10^100
+1e20 = 10^20
+ascii value of null character(\0) is 0
+*/
