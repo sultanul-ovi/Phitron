@@ -5,7 +5,8 @@ int main()
 {
     char s[100] = {"OVI"};
 
-    gets(s);
+   // gets(s);
+    fgets(s, sizeof(s), stdin);
     puts(s);
     printf("%d\n", sizeof(s));
     printf("%d\n", strlen(s));
