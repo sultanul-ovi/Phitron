@@ -5,7 +5,7 @@ def delete_exes(directory):
     for root, dirs, files in os.walk(directory):
         for file in files:
             # Check if the file has a .exe extension
-            if file.endswith('.exe'):
+            if file.endswith('.exe') or file.endswith('.bin'):
                 full_path = os.path.join(root, file)
                 try:
                     os.remove(full_path)
@@ -14,5 +14,5 @@ def delete_exes(directory):
                     print(f"Error deleting {full_path}: {e}")
 
 if __name__ == '__main__':
-    folder_path = "HackerRank"
+    folder_path = "PHITRON"
     delete_exes(folder_path)
