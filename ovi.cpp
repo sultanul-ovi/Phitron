@@ -1,18 +1,14 @@
-#include <iostream>
-#include <stdio.h>
-#include <iomanip>
-#include <algorithm>
-#include <utility>
-#include <string.h>
-#include <string>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main()
 {
+    cout << "hello" << endl;
     // int n;
     // char ch;
 
     // char s[100];
+    // getchar();
     // cin.getline(s, 100);
 
     // cin >> n >> ch;

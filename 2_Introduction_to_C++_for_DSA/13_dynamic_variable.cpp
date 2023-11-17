@@ -18,8 +18,8 @@ int main()
     cout << *a << endl;
     delete a;
 
-    // float *f = new float;
-    // *f = 1.5315;
-    // cout << *f << endl;
+    float *f = new float;
+    *f = 1.5315;
+    cout << *f << endl;
     return 0;
 }
