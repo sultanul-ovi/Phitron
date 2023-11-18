@@ -11,6 +11,7 @@ int main()
     while(ss >> word)
     {
         cnt++;
+        cout << word << endl;
     }
     cout<<cnt<<endl;
     
