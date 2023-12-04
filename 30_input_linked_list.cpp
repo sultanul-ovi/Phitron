@@ -30,6 +30,7 @@ void insert_at_tail(Node *&head, int v)
 }
 void print_linked_list(Node *head)
 {
+    cout << endl;
     cout << "Your Linked List: ";
     Node *tmp = head;
     while (tmp != NULL)
@@ -37,33 +38,20 @@ void print_linked_list(Node *head)
         cout << tmp->val << " ";
         tmp = tmp->next;
     }
-    cout << endl;
+    cout << endl
+         << endl;
 }
 int main()
 {
+    int val;
     Node *head = NULL;
     while (true)
     {
-        cout << "Option 1: Insert at Tail" << endl;
-        cout << "Option 2: Print Linked List" << endl;
-        cout << "Option 3: Terminate" << endl;
-        int op;
-        cin >> op;
-        if (op == 1)
-        {
-            cout << "Please enter value: ";
-            int v;
-            cin >> v;
-            insert_at_tail(head, v);
-        }
-        else if (op == 2)
-        {
-            print_linked_list(head);
-        }
-        else if (op == 3)
-        {
+        cin >> val;
+        if (val == -1)
             break;
-        }
+        insert_at_tail(head, val);
     }
+    print_linked_list(head);
     return 0;
 }

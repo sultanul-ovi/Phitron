@@ -1,19 +1,12 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
-int main()
-{
-    int n; cin>>n;
-    int a[n];
-    for(int i=0;i<n;i++) {
-        cin>>a[i];
-    }
-    for(int i=0;i<n-1;i++) {
-        for(int j=i+1;j<n;j++) {
-            if(a[i]>a[j]) swap(a[i],a[j]);
-        }
-    }
-    for(int i=0;i<n;i++) {
-        cout<<a[i]<<" ";
-    }
+void fun(int *&p){
+    p = NULL;
+}
+int main() {
+    int val = 10;
+    int *ptr = &val;
+    fun(ptr);
+    cout << *ptr << endl;
     return 0;
 }
