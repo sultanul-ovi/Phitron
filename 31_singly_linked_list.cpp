@@ -18,7 +18,7 @@ void print_linekd_list(Node *head)
     {
         cout << tmp->val << " ";
         tmp = tmp->next;
-    }
+    }  
     cout << endl;
 }
 int main()
